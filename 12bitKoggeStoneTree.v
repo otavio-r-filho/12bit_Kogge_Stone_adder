@@ -1,10 +1,10 @@
-module 12bitKoggeStoneTree(clk, rst, A, S, Co);
+module KoggeStoneTree12bit(clk, rst, A, B, S, Co);
   input clk, rst;
-  input [11..0] A, B;
-  output [11..0] S;
+  input [11:0] A, B;
+  output [11:0] S;
   output Co;
   
-  reg [11..0] S;
+  reg [11:0] S;
   reg Co;
   
   //First P and G wires layer
